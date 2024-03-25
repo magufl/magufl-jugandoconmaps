@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
-    <link rel="shortcut icon" href="./4geeks.ico" />
-  </head>
-  <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">JavaScript</h1>
-      <h2 class="text-primary">Renderizado condicional</h2>
-<!--       <div>
-        <ul class="list-group">
-          <li class="list-group-item d-flex justify-content-between">
-            <div>Tarea 1</div>
-            <div>
-              <span class="mx-1"><i class="far fa-check-circle text-success"></i></span>
-              <span class="mx-1"><i class="far fa-times-circle text-danger"></i></span>
-              <span class="mx-1"><i class="fas fa-trash-alt text-danger"></i></span>
-            </div>
-          </li>
-        </ul>
-      </div> -->
-      <h2 class="mt-3">Tareas</h2>
-      <div id="todos"></div>
-      <div id="byId"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello Rigo with Vanilla.js</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="./4geeks.ico" />
+</head>
+
+<body>
+  <div class="container-fluid text-center">
+    <div class="card">
+      <div class="card-header">
+        WELCOME TO SPAIN-FS-65 🎉the nicest cohorte hasta la fecha
+      </div>
+
+      <ul class="nav nav-pills mb-3 d-flex justify-content-center mt-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+            type="button" role="tab" aria-controls="pills-home" aria-selected="true">SEE INTEGRANTES😇</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">ROAST US👺</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="d-flex justify-content-between fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+          tabindex="0"></div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          ...</div>
+      </div>
+
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
